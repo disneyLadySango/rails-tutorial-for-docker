@@ -28,3 +28,7 @@ docker compose up -d
 # 実行後にDBを作成する
 docker compose exec web rake db:create
 ```
+
+## 参考文献
+
+[https://zenn.dev/peishim/articles/89bfa48396c348](Zennの記事)
