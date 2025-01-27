@@ -5,6 +5,8 @@
 ```sh
 # Dockerを立ち上げ rails new を実行する
 docker compose run --rm web rails new . --force --no-deps --database=mysql
+#上記のrails newでwebpackerのエラーが起きたら、
+docker compose run web rails webpacker:install
 # 実行後 Dockerをビルド
 docker compose build
 ```
